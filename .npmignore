@@ -1,0 +1,44 @@
+# Source files (only publish dist/)
+credentials/
+nodes/
+*.ts
+!*.d.ts
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+jest.config.js
+
+# Development
+.git/
+.github/
+.gitignore
+.vscode/
+.idea/
+
+# Testing
+test/
+coverage/
+*.test.ts
+*.spec.ts
+
+# Scripts
+scripts/
+
+# Documentation (keep README)
+docs/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies (npm install will handle)
+node_modules/
+
+# Build artifacts
+*.tsbuildinfo
